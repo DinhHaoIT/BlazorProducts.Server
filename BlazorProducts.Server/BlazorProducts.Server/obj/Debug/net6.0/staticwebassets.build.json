@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/xDfuNH6mOas/VyO0dOdSYxjQ10tsbaBtMWSA5SjMaU=",
+  "Source": "BlazorProducts.Server",
+  "BasePath": "_content/BlazorProducts.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
