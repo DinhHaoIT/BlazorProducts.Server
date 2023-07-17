@@ -1,6 +1,8 @@
 ﻿using BlazorProducts.Server.Context;
 using BlazorProducts.Server.Contracts;
 using BlazorProducts.Server.Entities;
+using BlazorProducts.Server.Entities.RequestFeatures;
+using BlazorProducts.Server.Paging;
 using Dapper;
 
 namespace BlazorProducts.Server.Repository
@@ -14,13 +16,16 @@ namespace BlazorProducts.Server.Repository
             _context = context;
         }
 
-        public async Task<IEnumerable<Company>> GetCompanies()
+       
+
+        public async Task<PagedList<Company>> GetCompanies(CompanyParameters companyParameters)
         {
             var query = "SELECT * FROM Companies";
-            using(var connection = _context.CreateConnection())
+            using (var connection = _context.CreateConnection())
             {
                 var companies = await connection.QueryAsync<Company>(query);
-                return companies.ToList();
+                return PagedList<Company>
+                       .ToPagedList(companies, companyParameters.PageNumber, companyParameters.PageSize);
             }
         }
     }

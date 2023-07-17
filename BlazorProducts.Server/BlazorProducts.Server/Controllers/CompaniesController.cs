@@ -1,6 +1,8 @@
 ﻿using BlazorProducts.Server.Contracts;
+using BlazorProducts.Server.Entities.RequestFeatures;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace BlazorProducts.Server.Controllers
 {
@@ -14,11 +16,12 @@ namespace BlazorProducts.Server.Controllers
             _companyRepo = companyRepo;
         }
         [HttpGet]
-        public async Task<IActionResult> GetCompanies()
+        public async Task<IActionResult> Get([FromQuery] CompanyParameters companyParameters)
         {
             try
             {
-                var companies = await _companyRepo.GetCompanies();
+                var companies = await _companyRepo.GetCompanies(companyParameters);
+                Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(companies.MetaData));
                 return Ok(companies);
             }
             catch (Exception ex)
