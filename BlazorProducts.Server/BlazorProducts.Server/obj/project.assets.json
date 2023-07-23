@@ -2292,19 +2292,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\dinhh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hao\\TestBlazor\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server.csproj",
+      "projectUniqueName": "D:\\Blazor\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server.csproj",
       "projectName": "BlazorProducts.Server",
-      "projectPath": "C:\\Hao\\TestBlazor\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Hao\\TestBlazor\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server\\obj\\",
+      "projectPath": "D:\\Blazor\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server.csproj",
+      "packagesPath": "C:\\Users\\dinhh\\.nuget\\packages\\",
+      "outputPath": "D:\\Blazor\\BlazorProducts.Server\\BlazorProducts.Server\\BlazorProducts.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dinhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2366,7 +2366,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

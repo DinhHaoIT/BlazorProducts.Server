@@ -133,3 +133,4 @@ C:\Hao\TestBlazor\BlazorProducts.Server\BlazorProducts.Server\BlazorProducts.Ser
 C:\Hao\TestBlazor\BlazorProducts.Server\BlazorProducts.Server\BlazorProducts.Server\obj\Debug\net6.0\BlazorProducts.Server.csproj.CopyComplete
 C:\Hao\TestBlazor\BlazorProducts.Server\BlazorProducts.Server\BlazorProducts.Server\obj\Debug\net6.0\BlazorProducts.Server.genruntimeconfig.cache
 C:\Hao\TestBlazor\BlazorProducts.Server\BlazorProducts.Server\BlazorProducts.Server\obj\Debug\net6.0\ref\BlazorProducts.Server.dll
+D:\Blazor\BlazorProducts.Server\BlazorProducts.Server\BlazorProducts.Server\bin\Debug\net6.0\Newtonsoft.Json.dll
